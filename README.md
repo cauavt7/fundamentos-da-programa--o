@@ -12,8 +12,13 @@
 *->multiplicação
 /->divisão
 
-##metodos em python
+# operadores lógicios
+and->e-> se dus condições forem verdadadeira< o resultado é verdadeiro.
+or-> ou
+
+## metodos em python
 1 print()-> exibe informações no terminal
+2 input()-> captura informações do terminal
 
 ## Format em python
 Estrutura de repetição
