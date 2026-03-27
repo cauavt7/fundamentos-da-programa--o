@@ -25,3 +25,8 @@ Estrutura de repetição
 ``if (se)`` ->  verifica se uma informação é (verdadeira). se for, ele executa o código.
 ``elif (senão se)``-> é usado pra testar varia condicoes ele so executa se todas as condicoes aneriores forem falsas
 ``else (senão)`` -> Executa o código se a condição if for false (falsa).
+
+## Boas praticas
+1.Qualquer variável em python utiliza o padrão de case snake_case ou recentemente o cameelCase.
+2.se voce observar alguma estrutura tiponome(), 90% de chance de ser uma função.
+3. python não tem constante porem utulizamos o padrão case UPERCASE para simular que aquela variável não pode ser alterada

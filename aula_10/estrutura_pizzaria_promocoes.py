@@ -9,6 +9,18 @@ print(f"o sabor da pizza é {pizza_sabor}, o tamanho é {pizza_tamanho} e hoje �
 
 # comprando qualquer pizza e qualquer tamanho no sábado,
 # o refri é gratuito.
+if dia_semana == "sabado": 
+    print(f"🍕pedido aceito com sucesso.")
+    print(f"o refri hoje é por conta da casa!.")
+elif dia_semana == "domingo":
+    print(f"🍕pedido aceito com sucesso.")
+    print(f"o refri hoje é por conta da casa!.")
+elif pizza_sabor == "calabresa" and pizza_tamanho = "media":
+    print(f"🍕pedido aceito com sucesso.")
+    print(f"o frete hoje é por conta da casa!.")
+
+    
+    
 
 # comprando uma pizza e calabresa tamanho edio, em qualquer dia, o frete é gratuito.
 
