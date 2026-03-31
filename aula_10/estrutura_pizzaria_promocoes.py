@@ -15,7 +15,7 @@ if dia_semana == "sabado":
 elif dia_semana == "domingo":
     print(f"🍕pedido aceito com sucesso.")
     print(f"o refri hoje é por conta da casa!.")
-elif pizza_sabor == "calabresa" and pizza_tamanho = "media":
+elif pizza_sabor == "calabresa" and pizza_tamanho =="media":
     print(f"🍕pedido aceito com sucesso.")
     print(f"o frete hoje é por conta da casa!.")
 
