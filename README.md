@@ -17,16 +17,45 @@ and->e-> se dus condições forem verdadadeira< o resultado é verdadeiro.
 or-> ou
 
 ## metodos em python
-1 print()-> exibe informações no terminal
-2 input()-> captura informações do terminal
+1 print()-> exibe informações no terminal.
+2 input()-> captura informações do terminal.
+3. lower() -> converte toda a string em minuscula.
+4.upper() -> Converte toda a string em maiúscula.
+isdigit -> Verifica se o valor contémnumero.
 
 ## Format em python
-Estrutura de repetição
+Estrutura condicionale
 ``if (se)`` ->  verifica se uma informação é (verdadeira). se for, ele executa o código.
 ``elif (senão se)``-> é usado pra testar varia condicoes ele so executa se todas as condicoes aneriores forem falsas
 ``else (senão)`` -> Executa o código se a condição if for false (falsa).
 
+# laços de repeticão
+é um recurso de programação que permite executar um conunto de comando varia vezes. tambem são chamados de loop, laços de repetição ou interação.
+´´for´´- usamos quado sabemos quantas vezes quermos repetir algo.
+sintax:
+for variavelin range (inicio,fim):
+   comandos
+   [range()] -> metodoque aceita geração de numeros
+   [inicio] -> ~é iinclusivo. é o primeiro numero a ser usado.
+   [fim]-> é exclusivo. o número utilizado é o anterior a esse.
+   ## escopo das Variaveis 
+   escopo loca -> A variavel ela só é acessada dentro da estrutura que ela foi criada.
+   escopo Globlal-> A variavel pode ser acessada por todo mundo.
+
+   ## varições das variaveis
+   variavel em memoria é decklarada quando você não pretende usar essa variavel em outros cenários.
+   variavel contadora -> é utilizada para uma logica onde a repetição irá ser alterada.
+
+int()-> A gente vai incluir qual variavel/dado mque queremos converter para número inteiro
+float()->A gente vai incluir qual variavel/dado mque queremos converter para número decimal
+str()->A gente vai incluir qual variavel/dado mque queremos converter para número para texto
+
 ## Boas praticas
 1.Qualquer variável em python utiliza o padrão de case snake_case ou recentemente o cameelCase.
 2.se voce observar alguma estrutura tiponome(), 90% de chance de ser uma função.
-3. python não tem constante porem utulizamos o padrão case UPERCASE para simular que aquela variável não pode ser alterada
+3. python não tem constante porem utulizamos o padrão case UPERCASE para simular que aquela variável não pode ser alterada.
+
+'while' -> é utilizado quando não sabemos quantas vezes o programa vai repetir. Ele repete enquanto uma condição for verdadeira.
+sintaxe:
+whie condição:
+     comandos
