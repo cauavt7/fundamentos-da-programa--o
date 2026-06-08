@@ -19,7 +19,7 @@ or-> ou
 ## metodos em python
 1 print()-> exibe informações no terminal.
 2 input()-> captura informações do terminal.
-3. lower() -> converte toda a string em minuscula.
+3.lower() -> converte toda a string em minuscula.
 4.upper() -> Converte toda a string em maiúscula.
 isdigit -> Verifica se o valor contémnumero.
 
@@ -59,3 +59,19 @@ str()->A gente vai incluir qual variavel/dado mque queremos converter para núme
 sintaxe:
 whie condição:
      comandos
+
+## funções em python
+`definir` que uma função será declarada ;
+`propriedade` -> Variavel em memória que irá receber um argumento.
+`argumento` -> valor que ira prencher o espaço da propriedade
+
+## estrutuera de dados
+`list ou lista` -> Armazena valores e podem sr heterogenea ou homognea ou seja pode guardar valores de um mesmp tipo ou de diferentes tipos.
+ex: list = []// lista vazia
+list = ["willian",25,1.82]
+
+`dict ou dicionario`-> Armazena CONJUNTOS DE VALORES (CHAVE : VALOR). As chaves e valores podem ser heterogeneas ou homogeneas.
+1. Para obter ov alor de um conjunto em dict, você acessa pela chave.
+Ex> ddos_usuario = {} // Dicionário Vazio
+dados_usuario = {"nome" : "william", "cpf":111456985-98, "idade":25}
+dados_usuario["nome"] => Devolve o valor, que é "William".

@@ -1,6 +1,6 @@
 idade_do_motorista = int(input("digite sua idade:"))
 cadastro = input("voce pusssui cadastro? - [sim],[não]:")
-tipo_veiculo = input("qual tipo do seu veiculo?- [carro],[moto],[caminhao],[caminhonetes],[moto eletricas],[van]:")
+tipo_veiculo = input("qual tipo do seu veiculo?- [carro],[moto],[caminhao],[caminhonetes],[moto_eletrica],[van]:")
 clube_vip = input("voce faz parte do clube vip? - [sim],[não]:")
 
 #regras de entrada
@@ -19,6 +19,9 @@ if idade_do_motorista <18:
 
 elif cadastro == "não":
     print("voce tera que fazer o seu registro")
+
+elif tipo_veiculo == ["caminhonetes"],["moto eletricas"]:
+
 
 
 
