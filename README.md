@@ -75,3 +75,21 @@ list = ["willian",25,1.82]
 Ex> ddos_usuario = {} // Dicionário Vazio
 dados_usuario = {"nome" : "william", "cpf":111456985-98, "idade":25}
 dados_usuario["nome"] => Devolve o valor, que é "William".
+
+## POO
+Em python,todo molde é declarado atraves de uma classe => [class].
+Qualquer caracteristica dentro de uma classe, é chamada de [atributo] e são declaradas com variaveis.
+as ações dentro de uma classe são chamadas de métodos e são declaradas como [funções].
+
+4.[Self] -> Significa ele mesmo, o atributo de classe atual.
+5.[constructor] -> é uma estrutura de como a classe será "copiada"
+
+## cases em python
+snake_case -> nome_aluno -> nome de variaveis,metodos(funções) e arquivos.
+cammelcase -> nomeAluno -> nome de variaveis, métodos(funções). 'Mais atual'
+pascalcase -> nomeAluno -> Classes.
+kebab-case -> nome-aluno -> não utilizamos em python.
+
+# precisamos criar um molde de uma pessoa => class
+# carateristiicas -> atributos => variaveis
+# ações -> métodos => funções
